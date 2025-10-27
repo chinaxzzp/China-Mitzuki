@@ -12,8 +12,8 @@ let txt = `
 
 ╭┈ ↷
 │ ✐ 𝓓𝓮𝔀𝓮𝓵𝓸𝓹𝓮𝓭 𝓫𝔂 ${etiqueta}
-│ ✐ ꒷ꕤ🇨🇳ദ ᴄᴏᴍᴀɴᴅᴏs ෴
-│ ${totalCommands}
+│ ✐ ꒷ꕤ🇨🇳ദ ɪɴsᴛᴀɢʀᴀᴍ ෴
+│ instagram.com/its.chinita_
 │ ✐ ꒷ꕤ🇨🇳ദ ᴄᴀɴᴀʟ ᴏғɪᴄɪᴀʟ ෴
 │ https://whatsapp.com/channel/0029Van1PcoFSAt50tWN4d0x
 ╰───────────────
@@ -438,7 +438,7 @@ let txt = `
 
 `.trim()
 await conn.sendMessage(m.chat, { 
-text: txt,
+/*text: txt,
 contextInfo: {
 mentionedJid: [userId],
 isForwarded: true,
@@ -446,7 +446,7 @@ forwardedNewsletterMessageInfo: {
 newsletterJid: channelRD.id,
 serverMessageId: '',
 newsletterName: channelRD.name
-},
+},*/
 externalAdReply: {
 title: botname,
 body: textbot,
