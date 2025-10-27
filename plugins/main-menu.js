@@ -6,9 +6,9 @@ let userId = mentionedJid && mentionedJid[0] ? mentionedJid[0] : m.sender
 let totalreg = Object.keys(global.db.data.users).length
 let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length
     
-let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮
-︶•︶°︶•︶°︶•︶°︶•︶°︶•︶°︶
->  Hola! @${userId.split('@')[0]}, Soy *${botname}*, Aquí tienes la lista de comandos.
+let txt = `
+Hola! @${userId.split('@')[0]}, Soy *${botname}* (${(conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub-Bot')})
+𝐀𝐪𝐮𝐢 𝐭𝐢𝐞𝐧𝐞𝐬 𝐥𝐚 𝐥𝐢𝐬𝐭𝐚 𝐝𝐞 𝐦𝐢𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬.
 
 ╭┈ࠢ͜┅ࠦ͜͜╾݊͜─ؕ͜─ׄ͜─֬͜─֟͜─֫͜─ׄ͜─ؕ͜─݊͜┈ࠦ͜┅ࠡ͜͜┈࠭͜͜۰۰͜۰
 │✦ *Tipo* » ${(conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub-Bot')}
