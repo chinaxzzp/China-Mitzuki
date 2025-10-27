@@ -7,7 +7,7 @@ const { generateWAMessageFromContent, prepareWAMessageMedia, proto } = pkg
 
 var handler = m => m
 handler.all = async function (m) { 
-global.canalIdM = ["120363345778623279@newsletter", "120363401404146384@newsletter"]
+global.canalIdM = ["120363345778623279@newsletter", "120363419164978167@newsletter"]
 global.canalNombreM = ["ᥫ᭡ =͟͟͞͞𝐂𝐡𝐢𝐧𝐚𝐌𝐢𝐭𝐳𝐮𝐤𝐢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 ᯓᡣ𐭩", "ᥫ᭡ =͟͟͞͞𝐂𝐡𝐢𝐧𝐚𝐌𝐢𝐭𝐳𝐮𝐤𝐢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐔𝐩𝐝𝐚𝐭𝐞'𝐬 ᯓᡣ𐭩"]
 global.channelRD = await getRandomChannel()
 
@@ -21,8 +21,8 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 
 var canal = 'https://whatsapp.com/channel/0029VbAfPu9BqbrEMFWXKE0d'  
 var comunidad = 'https://chat.whatsapp.com/I0dMp2fEle7L6RaWBmwlAa'
-var git = 'https://github.com/The-King-Destroy'
-var github = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot' 
+var git = 'https://github.com/ittschinitaa'
+var github = 'https://github.com/ittschinitaaa/ChinaMitzuki' 
 var correo = 'thekingdestroy507@gmail.com'
 global.redes = [canal, comunidad, git, github, correo].getRandom()
 
