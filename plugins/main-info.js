@@ -21,7 +21,7 @@ if (text.length < 10) return conn.reply(m.chat, 'ꕥ La sugerencia debe tener m�
 await m.react('🕒')
 const sug = `❀ 𝗦𝗨𝗚𝗘𝗥𝗘𝗡𝗖𝗜𝗔 𝗥𝗘𝗖𝗜𝗕𝗜𝗗𝗔\n\nꕥ *Usuario* » ${nombre}\n✩ *Tag* » ${tag}\n✿ *Sugerencia* » ${text}\n✦ *Chat* » ${chatLabel}\n✰ *Fecha* » ${horario}\n♤ *InfoBot* » ${botname} / ${vs}`
 await conn.sendMessage(`${suittag}@s.whatsapp.net`, { text: sug, mentions: [m.sender, ...usertag] }, { quoted: m })
-await m.react('✔️')
+await m.react('✅')
 m.reply('❀ La sugerencia ha sido enviada al desarrollador. Gracias por contribuir a mejorar nuestra experiencia.')
 break
 }
@@ -31,7 +31,7 @@ if (text.length < 10) return conn.reply(m.chat, 'ꕥ Especifique mejor el error,
 await m.react('🕒')
 const rep = `❀ 𝗥𝗘𝗣𝗢𝗥𝗧𝗘 𝗥𝗘𝗖𝗜𝗕𝗜𝗗𝗢\n\nꕥ *Usuario* » ${nombre}\n✩ *Tag* » ${tag}\n✿ *Reporte* » ${text}\n✦ *Chat* » ${chatLabel}\n✰ *Fecha* » ${horario}\n♤ *InfoBot* » ${botname} / ${vs}`
 await conn.sendMessage(`${suittag}@s.whatsapp.net`, { text: rep, mentions: [m.sender, ...usertag] }, { quoted: m })
-await m.react('✔️')
+await m.react('✅')
 m.reply('❀ El informe ha sido enviado al desarrollador. Ten en cuenta que cualquier reporte falso podría resultar en restricciones en el uso del *Bot*.')
 break
 }
@@ -47,7 +47,7 @@ if (mainBotNumber === senderBotNumber)
 await conn.sendMessage(`${suittag}@s.whatsapp.net`, { text: invite, mentions: [m.sender, ...usertag] }, { quoted: m })
 else
 await conn.sendMessage(`${senderBotNumber}@s.whatsapp.net`, { text: invite, mentions: [m.sender, ...usertag] }, { quoted: m })
-await m.react('✔️')
+await m.react('✅')
 m.reply('❀ El enlace fue enviado correctamente. ¡Gracias por tu invitación! ฅ^•ﻌ•^ฅ')
 break
 }
@@ -63,7 +63,7 @@ if (stderr.trim()) {
 const url2 = stderr.match(/http[^"]+\.png/)?.[0]
 if (url2) await conn.sendMessage(m.chat, { image: { url: url2 }, caption: stderr.trim() }, { quoted: m })
 }
-await m.react('✔️')
+await m.react('✅')
 break
 }
 case 'fixmsg': case 'ds': {
@@ -81,21 +81,21 @@ await fs.unlink(path.join(sessionPath, file))
 count++
 break
 }}}
-await m.react(count === 0 ? '✖️' : '✔️')
+await m.react(count === 0 ? '❌' : '✅')
 conn.reply(m.chat, count === 0 ? 'ꕥ No se encontraron archivos relacionados con tu ID.' : `ꕥ Se eliminaron ${count} archivos de sesión.`, m)
 break
 }
 case 'script': case 'sc': {
 await m.react('🕒')
-const res = await fetch('https://api.github.com/repos/The-King-Destroy/Yuki_Suou-Bot')
+const res = await fetch('https://api.github.com/repos/ittschinitaaa/ChinaMitzuki')
 if (!res.ok) throw new Error('No se pudo obtener los datos del repositorio.')
 const json = await res.json()
 const txt = `*乂  S C R I P T  -  M A I N  乂*\n\n✩ *Nombre* : ${json.name}\n✩ *Visitas* : ${json.watchers_count}\n✩ *Peso* : ${(json.size / 1024).toFixed(2)} MB\n✩ *Actualizado* : ${moment(json.updated_at).format('DD/MM/YY - HH:mm:ss')}\n✩ *Url* : ${json.html_url}\n✩ *Forks* : ${json.forks_count}\n✩ *Stars* : ${json.stargazers_count}\n\n> *${dev}*`
 await conn.sendMessage(m.chat, { image: catalogo, caption: txt, ...rcanal }, { quoted: m })
-await m.react('✔️')
+await m.react('✅')
 break
 }}} catch (err) {
-await m.react('✖️')
+await m.react('❌')
 conn.reply(m.chat, `⚠︎ Se ha producido un problema.\n> Usa *${usedPrefix}report* para informarlo.\n\n${err.message}`, m)
 }}
 
