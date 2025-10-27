@@ -8,7 +8,7 @@ let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags
     
 let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮
 ︶•︶°︶•︶°︶•︶°︶•︶°︶•︶°︶
-> ❀ Hola! @${userId.split('@')[0]}, Soy *${botname}*, Aquí tienes la lista de comandos.
+>  Hola! @${userId.split('@')[0]}, Soy *${botname}*, Aquí tienes la lista de comandos.
 
 ╭┈ࠢ͜┅ࠦ͜͜╾݊͜─ؕ͜─ׄ͜─֬͜─֟͜─֫͜─ׄ͜─ؕ͜─݊͜┈ࠦ͜┅ࠡ͜͜┈࠭͜͜۰۰͜۰
 │✦ *Tipo* » ${(conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub-Bot')}
@@ -18,8 +18,9 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 │🜸 *Librería* » ${libreria}
 ╰ׅ┈ࠢ͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴ ⋱࣭ ᩴ  ⋮֔   ᩴ ⋰╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜┈ࠢ͜╯ׅ
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *ECONOMY* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✿ Comandos de *Economía* para ganar dinero.
+»  ⊹ ˚୨ •(=^●ω●^=)• *𝗘𝗰𝗼𝗻𝗼𝗺𝗶𝗮* ⊹
+> ✐ Comandos de *Economía* para ganar dinero.
+
 ✦ *#w • #work • #trabajar*
 > ⸙ Ganar coins trabajando.
 ✦ *#slut • #protituirse*
@@ -66,10 +67,10 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Ganar coins y exp pescando.
 ✦ *#mazmorra • #dungeon*
 > ⸙ Explorar mazmorras para ganar coins y exp.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *DOWNLOAD* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✿ Comandos de *Descargas* para descargar archivos de varias fuentes.
+»  ⊹ ˚୨ •(=^●ω●^=)• 𝗗𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝘀 ⊹
+> ✐ Comandos de *Descargas* para descargar archivos de varias fuentes.
+
 ✦ *#tiktok • #tt* + [Link] / [busqueda]
 > ⸙ Descargar un video de TikTok.
 ✦ *#mediafire • #mf* + [Link]
@@ -92,10 +93,10 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Descargar un apk de Aptoide.
 ✦ *#ytsearch • #search* + [busqueda]
 > ⸙ Buscar videos de YouTube.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *GACHA* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✿ Comandos de *Gacha* para reclamar y colecciónar personajes.
+»  ⊹ ˚୨ •(=^●ω●^=)• 𝗚𝗮𝗰𝗵𝗮 ⊹
+> ✐ Comandos de *Gacha* para reclamar y colecciónar personajes.
+
 ✦ *#buycharacter • #buychar • #buyc* + [nombre]
 > ⸙ Comprar un personaje en venta.
 ✦ *#charimage • #waifuimage • #cimage • #wimage* + [nombre]
@@ -140,10 +141,10 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Votar por un personaje para subir su valor.
 ✦ *#waifusboard • #waifustop • #topwaifus • #wtop* + [número]
 > ⸙ Ver el top de personajes con mayor valor.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *SOCKETS* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✿ Comandos para registrar tu propio Bot.
+»  ⊹ ˚୨ •(=^●ω●^=)• 𝗦𝗼𝗰𝗸𝗲𝘁𝘀 ⊹
+> ✐ Comandos para registrar tu propio Bot.
+
 ✦ *#qr • #code*
 > ⸙ Crear un Sub-Bot con un codigo QR/Code
 ✦ *#bots • #botlist*
@@ -164,10 +165,10 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Cambiar el estado del bot
 ✦ *#setusername* + [nombre]
 > ⸙ Cambiar el nombre de usuario
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *UTILITIES* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✿ Comandos de *Útilidades*.
+»  ⊹ ˚୨ •(=^●ω●^=)• 𝗨𝘁𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀 ⊹
+> ✐ Comandos de *Útilidades*.
+
 ✦ *#help • #menu*
 > ⸙ Ver el menú de comandos.
 ✦ *#sc • #script*
@@ -216,10 +217,10 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Descargar paquetes de NPMJS.
 ✦ *#google*
 > ⸙ Realizar búsquedas por Google.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *PROFILES* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
+»  ⊹ ˚୨ •(=^●ω●^=)• 𝗣𝗿𝗼𝗳𝗶𝗹𝗲𝘀 ⊹
 > ✿ Comandos de *Perfil* para ver y configurar tu perfil.
+
 ✦ *#leaderboard • #lboard • #top* + <Paginá>
 > ⸙ Top de usuarios con más experiencia.
 ✦ *#level • #lvl* + <@Mencion>
@@ -246,10 +247,10 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Eliminar tu descripción.
 ✦ *#prem • #vip*
 > ⸙ Comprar membresía premium.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *GROUPS* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✿ Comandos para *Administradores* de grupos.
+»  ⊹ ˚୨ •(=^●ω●^=)• 𝗚𝗿𝗼𝘂𝗽𝘀 ⊹
+> ✐ Comandos para *Administradores* de grupos.
+
 ✦ *#tag • #hidetag • #invocar • #tagall* + [mensaje]
 > ⸙ Envía un mensaje mencionando a todos los usuarios del grupo.
 ✦ *#detect • #alertas* + [enable/disable]
@@ -314,10 +315,10 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Ver la Informacion del grupo.
 ✦ *#link*
 > ⸙ Ver enlace de invitación del grupo.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅׅ
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *ANIME* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
-> ✿ Comandos de reacciones de anime.
+»  ⊹ ˚୨ •(=^●ω●^=)• 𝗔𝗻𝗶𝗺𝗲 ⊹
+> ✐ Comandos de reacciones de anime.
+
 ✦ *#angry • #enojado* + <mencion>
 > ⸙ Estar enojado
 ✦ *#bath • #bañarse* + <mencion>
@@ -418,9 +419,10 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Buscar una waifu aleatoria.
 ✦ *#ppcouple • #ppcp*
 > ⸙ Genera imágenes para amistades o parejas.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯
 
-╭┈ࠢ͜─ׄ֟፝͜─ׄ͜─ׄ͜╴𐔌 *NSFW* 𐦯╶͜─ׄ͜─ׄ֟፝͜─ׄ͜─ׄ͜
+»  ⊹ ˚୨ •(=^●ω●^=)• 𝗡𝗦𝗙𝗪 ⊹
+> ✐ Comandos de NSFW. 
+
 ✦ *#danbooru • #dbooru* + [Tags]
 > ⸙ Buscar imagenes en Danbooru
 ✦ *#gelbooru • #gbooru* + [Tags]
@@ -431,7 +433,8 @@ let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮  
 > ⸙ Descargar un video Xvideos. 
 ✦ *#xnxx •#xnxxdl* + [Link]
 > ⸙ Descargar un video Xnxx.
-╰ׅ͜─֟͜─͜─ٞ͜─͜─๊͜─͜─๋͜─⃔═̶፝֟͜═̶⃔─๋͜─͜─͜─๊͜─ٞ͜─͜─֟͜┈ࠢ͜╯ׅ`.trim()
+
+`.trim()
 await conn.sendMessage(m.chat, { 
 text: txt,
 contextInfo: {
