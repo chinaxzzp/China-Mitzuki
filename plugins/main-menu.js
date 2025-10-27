@@ -438,7 +438,7 @@ let txt = `
 
 `.trim()
 await conn.sendMessage(m.chat, { 
-/*text: txt,
+text: txt,
 contextInfo: {
 mentionedJid: [userId],
 isForwarded: true,
@@ -446,7 +446,7 @@ forwardedNewsletterMessageInfo: {
 newsletterJid: channelRD.id,
 serverMessageId: '',
 newsletterName: channelRD.name
-},*/
+},
 externalAdReply: {
 title: botname,
 body: textbot,
