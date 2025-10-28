@@ -420,23 +420,7 @@ let txt = `
 ✦ *#waifu*
 → Buscar una waifu aleatoria.
 ✦ *#ppcouple • #ppcp*
-→ Genera imágenes para amistades o parejas.
-
-»  ⊹ ˚୨ •(=^●ω●^=)• 𝗡𝗦𝗙𝗪 ⊹
-> ✐ Comandos de NSFW. 
-
-✦ *#danbooru • #dbooru* + [Tags]
-→ Buscar imagenes en Danbooru
-✦ *#gelbooru • #gbooru* + [Tags]
-→ Buscar imagenes en Gelbooru
-✦ *#rule34 • #r34* + [Tags]
-→ Buscar imagenes en Rule34
-✦ *#xvideos •#xvideosdl* + [Link]
-→ Descargar un video Xvideos. 
-✦ *#xnxx •#xnxxdl* + [Link]
-→ Descargar un video Xnxx.
-
-`.trim()
+→ Genera imágenes para amistades o parejas.`.trim()
 await conn.sendMessage(m.chat, { 
 text: txt,
 contextInfo: {
