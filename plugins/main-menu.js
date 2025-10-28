@@ -448,7 +448,7 @@ serverMessageId: '',
 newsletterName: channelRD.name
 },
 externalAdReply: {
-title: botname,
+title: "𝕮𝖍𝖎𝖓𝖆𝕸𝖎𝖙𝖟𝖚𝖐𝖎 💋🔥", //botname,
 body: textbot,
 mediaType: 1,
 mediaUrl: redes,
