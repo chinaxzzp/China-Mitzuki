@@ -5,7 +5,7 @@
 ```bash
 termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/ittschinitaaa/China-Mitzuki && cd China-Mitzuki
+git clone https://github.com/China-Mitzuki/China-Mitzuki && cd China-Mitzuki
 yarn install
 npm install
 npm start
