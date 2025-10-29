@@ -33,10 +33,10 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
 let { say } = cfonts
 console.log(chalk.magentaBright('\n❀ Iniciando...'))
-say('China-Mitzuki', {
+say('Mitzuki', {
 font: 'simple',
 align: 'left',
-gradient: ['green', 'white']
+gradient: ['red', 'red']
 })
 say('Made with love by China', {
 font: 'console',
